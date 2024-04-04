@@ -1,5 +1,7 @@
 import HomeMobile from '../views/home/App.vue'
 
-export default [
+const routes:Array<object> = [
   { path: '/', component: HomeMobile },
 ]
+
+export default routes

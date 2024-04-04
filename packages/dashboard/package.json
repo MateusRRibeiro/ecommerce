@@ -9,7 +9,5 @@
     "preview": "vite preview"
   },
   "dependencies": {},
-  "devDependencies": {
-    "@types/node": "^20.12.2"
-  }
+  "devDependencies": {}
 }

@@ -40,27 +40,4 @@ module.exports = {
     'vue/padding-line-between-blocks': ['error', 'always'],
     'no-console': ['error', {allow: ['error', 'warn', 'info']}]
   },
-  "import/order": [
-    "error",
-    {
-      "pathGroups": [
-        {
-          "pattern": "~/**",
-          "group": "external",
-          "position": "after"
-        }
-      ],
-      "groups": [
-        "builtin",
-        "external",
-        "internal",
-        "unknown",
-        "parent",
-        "sibling",
-        "index",
-        "object",
-        "type"
-      ]
-    }
-  ]
 }
